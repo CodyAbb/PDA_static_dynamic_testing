@@ -1,7 +1,9 @@
 ### Testing task 1:
 
 # Carry out static testing on the code below.
+
 # Comment on any errors that you see below.
+
 ```ruby
 
 class CardGame
@@ -9,6 +11,7 @@ class CardGame
   #This method should be named check_for_ace to meet conventions
   #This method should be a class method
   def checkforAce(card)
+    #card.value should be checked with == 1
     if card.value = 1
       return true
     else
@@ -18,10 +21,10 @@ class CardGame
 
   #This function will return a syntax error due to 'dif' being used instead of 'def'
   #When defining the method the parameters have not been separated by a ','
-  #This method should be a class method
+  #This should be a class method
   dif highest_card(card1 card2)
   if card1.value > card2.value
-    return card
+    return card #return should be card1
   else
     return card2
   end
