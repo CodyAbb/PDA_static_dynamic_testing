@@ -17,7 +17,7 @@ class CardGame
     if card1.value > card2.value 
       return card1
     else
-      retunr card2
+      return card2
     end
   end
 
